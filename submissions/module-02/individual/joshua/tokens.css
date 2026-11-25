@@ -1,0 +1,53 @@
+:root {
+  /* ==========================================================================
+     CivicPulse Design Tokens
+     60-30-10 Color Architecture, 8pt Spatial Grid & Typography
+     ========================================================================== */
+
+  /* --- 60% Dominant / Neutral Surfaces --- */
+  --canvas-primary: #F8FAFC;      /* Primary App Canvas */
+  --canvas-recessed: #F1F5F9;     /* Recessed Map/Well Surface */
+
+  /* --- 30% Secondary Structural Surfaces, Text & Dividers --- */
+  --surface-card: #FFFFFF;        /* Elevated Cards, Panels & Nav */
+  --text-heading: #0F172A;        /* Primary Headings */
+  --text-body: #334155;           /* Body Text */
+  --text-muted: #475569;          /* Muted Metadata & Secondary Labels */
+  --border-divider: #CBD5E1;      /* Structural Borders & Dividers */
+
+  /* --- 10% Accent Tokens & Interactive States --- */
+  --primary-cta: #1D4ED8;         /* Primary CTA & Active Indicators */
+  --primary-cta-hover: #1E40AF;   /* Hover State */
+  --primary-cta-active: #1E3A8A;  /* Active/Pressed State */
+  --primary-cta-disabled: #94A3B8;/* Disabled State */
+  --focus-ring-color: #1D4ED8;    /* Keyboard Focus Ring */
+  --focus-ring-offset: #FFFFFF;   /* Focus Offset */
+
+  /* --- 10% Semantic Feedback Badges & Indicators --- */
+  --badge-success-bg: #D1FAE5;
+  --badge-success-text: #065F46;
+  --badge-success-border: #059669;
+
+  --badge-warning-bg: #FEF3C7;
+  --badge-warning-text: #92400E;
+  --badge-warning-border: #D97706;
+
+  --badge-error-bg: #FEE2E2;
+  --badge-error-text: #991B1B;
+  --badge-error-border: #DC2626;
+
+  /* --- 8pt Spatial Grid Tokens --- */
+  --space-micro: 4px;             /* Micro-grid exception (badges, icon-label) */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* --- Radii Tokens --- */
+  --radius-sm: 4px;               /* Form inputs, buttons, chips */
+  --radius-md: 8px;               /* Cards, modals, issue containers */
+  --radius-lg: 12px;              /* Top-level sheets & summary widgets */
+  --radius-full: 9999px;          /* Status indicator pills, avatars */
+}
